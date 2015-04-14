@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.AspMvc4", "Saga.Music.AspMvc4\Saga.AspMvc4.csproj", "{20603DAB-5ED9-4DB6-87A3-6B99E318B8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.SqlClientDal", "..\..\..\data\Saga.SqlClientDal.csproj", "{B40537BD-9A93-4A41-AF17-08999E45748F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Business", "..\..\..\business logic\defaultBusiness\BusinessLayer\Saga.Business.csproj", "{DBA457B2-14DE-4F69-8CA4-FEB61BA6B061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.DI", "..\..\..\dependency injection\windows\Saga.DI\Saga.DI.csproj", "{96EE0713-E31D-4C62-9C75-1D7E976FB9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Specification", "..\..\..\specification\windows\Saga.Specification.csproj", "{AF7AE16D-DB0B-491B-9F9C-8F50052073D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20603DAB-5ED9-4DB6-87A3-6B99E318B8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20603DAB-5ED9-4DB6-87A3-6B99E318B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20603DAB-5ED9-4DB6-87A3-6B99E318B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20603DAB-5ED9-4DB6-87A3-6B99E318B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40537BD-9A93-4A41-AF17-08999E45748F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40537BD-9A93-4A41-AF17-08999E45748F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40537BD-9A93-4A41-AF17-08999E45748F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40537BD-9A93-4A41-AF17-08999E45748F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA457B2-14DE-4F69-8CA4-FEB61BA6B061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA457B2-14DE-4F69-8CA4-FEB61BA6B061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA457B2-14DE-4F69-8CA4-FEB61BA6B061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA457B2-14DE-4F69-8CA4-FEB61BA6B061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EE0713-E31D-4C62-9C75-1D7E976FB9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EE0713-E31D-4C62-9C75-1D7E976FB9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EE0713-E31D-4C62-9C75-1D7E976FB9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EE0713-E31D-4C62-9C75-1D7E976FB9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7AE16D-DB0B-491B-9F9C-8F50052073D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7AE16D-DB0B-491B-9F9C-8F50052073D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7AE16D-DB0B-491B-9F9C-8F50052073D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7AE16D-DB0B-491B-9F9C-8F50052073D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html ng-app="slideshow">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- add styles -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- add javascripts -->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular-animate.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular-touch.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+    
+    <div ng-show="usercode == 'notfound'" class="login" >
+        <p>&nbsp;</p>
+        <input ng-model="username" ng-blur="login()" class="login" /><br />
+        <input ng-model="password" ng-blur="login()" type="password" class="login" />
+    </div>
+
+    <div>
+        <img ng-src="{{imageA}}" ng-show="showImage" ng-click="toggleControls()" class="slide" />
+        <div class="caption" ng-show="albumPhoto.EnglishCaption.length > 1"><span ng-bind="albumPhoto.EnglishCaption">test</span></div>
+        <div class="caption2" ng-show="albumPhoto.JapaneseCaption.length > 1"><span ng-bind="albumPhoto.JapaneseCaption">test</span></div>      
+    </div>
+</body>
