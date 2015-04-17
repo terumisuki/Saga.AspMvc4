@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -52,6 +52,12 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Ninject">
       <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Saga.DI">
+      <HintPath>..\..\assemblies\Saga.DI.dll</HintPath>
+    </Reference>
+    <Reference Include="Saga.Specification">
+      <HintPath>..\..\assemblies\Saga.Specification.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -304,16 +310,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\dependency injection\windows\Saga.DI\Saga.DI.csproj">
-      <Project>{96ee0713-e31d-4c62-9c75-1d7e976fb9a1}</Project>
-      <Name>Saga.DI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\specification\windows\Saga.Specification.csproj">
-      <Project>{af7ae16d-db0b-491b-9f9c-8f50052073d3}</Project>
-      <Name>Saga.Specification</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
