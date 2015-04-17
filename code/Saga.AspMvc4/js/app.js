@@ -1,5 +1,9 @@
 ﻿'use strict';
 
+
+// Taken and adapted from
+//      http://www.script-tutorials.com/demos/366/index.html
+
 angular.module('slideshow', ['ngAnimate', 'ngTouch'])
   .controller('MainCtrl', function ($scope, $http, $timeout, $window, $location) {
 
