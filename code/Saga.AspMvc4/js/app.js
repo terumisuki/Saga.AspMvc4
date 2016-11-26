@@ -7,6 +7,9 @@
 angular.module('slideshow', ['ngAnimate', 'ngTouch'])
   .controller('MainCtrl', function ($scope, $http, $timeout, $window, $location) {
 
+
+      // This is a test.
+
       // initialize
       $scope.showImage = false;
       $scope.timer = 16000;
